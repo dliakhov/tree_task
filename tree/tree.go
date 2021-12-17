@@ -19,8 +19,6 @@ type Node struct {
 //    3  4 4  3
 //   / \     / \
 //  1   6   6   1
-// / \ / \ / \ / \
-// 0  2 8  8  2  0
 func IsSymetric(root *Tree) bool {
 	return isNodeSymetric(root.Root.Left, root.Root.Right)
 }
